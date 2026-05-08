@@ -14,3 +14,18 @@ def add_student(students):
     students.append(student)
 
     print("Student added successfully!")
+
+def display_students(students):
+
+    if len(students) == 0:
+        print("No students found!")
+        return
+
+    print("\n===== STUDENT LIST =====")
+
+    for s in students:
+
+        print(f"Name: {s['name']}")
+        print(f"ID: {s['mssv']}")
+        print(f"GPA: {s['gpa']}")
+        print("-" * 20)
