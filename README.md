@@ -5,4 +5,5 @@
 A simple student management system written in Python.
 
 ## Members
+- Member D: Delete & Statistics
 - Member B: Add & Display student
